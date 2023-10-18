@@ -1,0 +1,148 @@
+<map version="freeplane 1.11.5">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<node TEXT="Python in Office" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1697644508245">
+<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
+<font BOLD="true"/>
+<hook NAME="MapStyle" background="#f9f9f8">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_nord_template.mm"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details" COLOR="#ffffff" BACKGROUND_COLOR="#2e3440" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true">
+<font SIZE="11" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#f6f9a1" TEXT_ALIGN="LEFT">
+<icon BUILTIN="clock2"/>
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#eceff4" BACKGROUND_COLOR="#bf616a" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_915433779" BORDER_COLOR="#bf616a">
+<icon BUILTIN="yes"/>
+<arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_915433779"/>
+<font NAME="Ubuntu" SIZE="14"/>
+<edge COLOR="#bf616a"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#eceff4" BACKGROUND_COLOR="#d08770" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#3b4252" BACKGROUND_COLOR="#ebcb8b">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#2e3440" BACKGROUND_COLOR="#a3be8c">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#2e3440" BACKGROUND_COLOR="#b48ead">
+<font SIZE="11"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" COLOR="#e5e9f0" BACKGROUND_COLOR="#5e81ac">
+<font SIZE="11"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" BACKGROUND_COLOR="#81a1c1">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7" BACKGROUND_COLOR="#88c0d0">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8" BACKGROUND_COLOR="#8fbcbb">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9" BACKGROUND_COLOR="#d8dee9">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10" BACKGROUND_COLOR="#e5e9f0">
+<font SIZE="9"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook URI="img/book_cover_python-with-office.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Part 1 Python Basics" POSITION="bottom_or_right" ID="ID_1592639027" CREATED="1697644547172" MODIFIED="1697644558735">
+<node TEXT="Ch 1 Python Installation" ID="ID_837781511" CREATED="1697644560570" MODIFIED="1697644582164">
+<node TEXT="1.1 Get to know Python" ID="ID_177994748" CREATED="1697644583991" MODIFIED="1697644592150"/>
+<node TEXT="1.2 Install Python" ID="ID_916561358" CREATED="1697644592596" MODIFIED="1697644597548"/>
+<node TEXT="1.3 Install Pycharm / VS Code" ID="ID_1993057507" CREATED="1697644602060" MODIFIED="1697644612149"/>
+<node TEXT="1.4 First Line of Code in Python" ID="ID_1338572120" CREATED="1697644613468" MODIFIED="1697644624301"/>
+<node TEXT="1.5 Simple Interaction" ID="ID_851393938" CREATED="1697644626875" MODIFIED="1697644633285"/>
+</node>
+<node TEXT="Ch 2 Data Structure" ID="ID_59096177" CREATED="1697644636709" MODIFIED="1697644641652">
+<node TEXT="2.1 Numeric Type" ID="ID_1279470095" CREATED="1697644641656" MODIFIED="1697644650606"/>
+<node TEXT="2.2 String" ID="ID_1363234231" CREATED="1697644658356" MODIFIED="1697644661260"/>
+<node TEXT="2.3 List" ID="ID_1652937508" CREATED="1697644705573" MODIFIED="1697644708431"/>
+<node TEXT="2.4 Tuple" ID="ID_855303431" CREATED="1697644708964" MODIFIED="1697644715213"/>
+<node TEXT="2.5 Dictionary" ID="ID_414058293" CREATED="1697644715621" MODIFIED="1697644720599"/>
+<node TEXT="2.6 Set" ID="ID_809020653" CREATED="1697644722782" MODIFIED="1697644726286"/>
+<node TEXT="2.8 None Type" ID="ID_863782771" CREATED="1697644729149" MODIFIED="1697644733285"/>
+<node TEXT="2.9 Public Methods" ID="ID_1871793617" CREATED="1697644733565" MODIFIED="1697644751653"/>
+<node TEXT="2.10 运算符" ID="ID_1670318155" CREATED="1697644751901" MODIFIED="1697644761494"/>
+<node TEXT="2.11 Traverse 遍历" ID="ID_459798000" CREATED="1697644764615" MODIFIED="1697644775054"/>
+<node TEXT="2.12 推导式" ID="ID_658640374" CREATED="1697644776340" MODIFIED="1697644783119"/>
+</node>
+<node TEXT="Ch 3 Functions" ID="ID_157578911" CREATED="1697644784644" MODIFIED="1697644791014">
+<node TEXT="3.1 Basic Structure" ID="ID_555053913" CREATED="1697644796068" MODIFIED="1697644808958">
+<node TEXT="3.1.1 顺序结构" ID="ID_1804817382" CREATED="1697644808960" MODIFIED="1697644816862"/>
+<node TEXT="3.1.2 选择结构" ID="ID_1351235544" CREATED="1697644817150" MODIFIED="1697644829182"/>
+<node TEXT="3.1.3 循环结构" ID="ID_1389508551" CREATED="1697644822565" MODIFIED="1697644835029"/>
+</node>
+<node TEXT="3.2 Get to know Function" ID="ID_1042805088" CREATED="1697644835992" MODIFIED="1697644842951"/>
+<node TEXT="3.3 Parameters in Function" ID="ID_1862578952" CREATED="1697644843420" MODIFIED="1697644850981"/>
+<node TEXT="3.4 Return Value of Function" ID="ID_245593469" CREATED="1697644855109" MODIFIED="1697644861821"/>
+<node TEXT="3.5 组包和解包" ID="ID_292127285" CREATED="1697644862181" MODIFIED="1697644870029"/>
+<node TEXT="3.6 变量作用域" ID="ID_965774638" CREATED="1697644871236" MODIFIED="1697644876006"/>
+<node TEXT="3.7 lambda Function" ID="ID_294107747" CREATED="1697644876171" MODIFIED="1697644888877"/>
+</node>
+<node TEXT="Ch 4 Class and Object" ID="ID_1064440122" CREATED="1697644890733" MODIFIED="1697644897955">
+<node TEXT="4.1 Class and Object" ID="ID_306967212" CREATED="1697644897958" MODIFIED="1697644905256"/>
+<node TEXT="4.2 私有属性和私有方法" ID="ID_818871696" CREATED="1697644908923" MODIFIED="1697644920574"/>
+<node TEXT="4.3 魔法方法" ID="ID_1604520930" CREATED="1697644920749" MODIFIED="1697644926352"/>
+<node TEXT="4.4 继承和多态" ID="ID_472307915" CREATED="1697644926534" MODIFIED="1697644935845"/>
+<node TEXT="4.5 类方法与静态方法" ID="ID_1715010967" CREATED="1697644938311" MODIFIED="1697644947847"/>
+</node>
+<node TEXT="Ch 5 Other Knowledge Points" ID="ID_1685697102" CREATED="1697644950270" MODIFIED="1697644963461">
+<node TEXT="5.1 程序异常" ID="ID_1881366087" CREATED="1697644963464" MODIFIED="1697644974734"/>
+<node TEXT="5.2 文件读写" ID="ID_761934679" CREATED="1697644977100" MODIFIED="1697644984286"/>
+<node TEXT="5.3 模块与包" ID="ID_1358911132" CREATED="1697644984453" MODIFIED="1697644989720"/>
+<node TEXT="5.4 常用模块" ID="ID_1724543919" CREATED="1697644991981" MODIFIED="1697644995760"/>
+</node>
+</node>
+<node TEXT="Part 2 Use Python in Office" POSITION="bottom_or_right" ID="ID_345183801" CREATED="1697644999844" MODIFIED="1697645025511">
+<node TEXT="Ch 6 Work with Excel" ID="ID_209766570" CREATED="1697645025514" MODIFIED="1697645042303">
+<node TEXT="6.1 openpyxl" ID="ID_354594493" CREATED="1697645045535" MODIFIED="1697645053846"/>
+<node TEXT="6.2 Open and Save" ID="ID_209273820" CREATED="1697645054206" MODIFIED="1697645060815"/>
+<node TEXT="6.3 Work with worksheets" ID="ID_460205595" CREATED="1697645063668" MODIFIED="1697645070979"/>
+<node TEXT="6.4 Access cell" ID="ID_1346484310" CREATED="1697645074105" MODIFIED="1697645081569"/>
+<node TEXT="6.5 Work with cell" ID="ID_1444843622" CREATED="1697645082461" MODIFIED="1697645089696"/>
+<node TEXT="6.6 Use Excel Formula" ID="ID_1503221439" CREATED="1697645092534" MODIFIED="1697645100841"/>
+<node TEXT="6.7 Configure Styles" ID="ID_1755266817" CREATED="1697645103870" MODIFIED="1697645113840"/>
+<node TEXT="6.8 Filter and Sort" ID="ID_1477838937" CREATED="1697645114167" MODIFIED="1697645122168"/>
+<node TEXT="6.9 Insert Chart / Table" ID="ID_1860647576" CREATED="1697645122670" MODIFIED="1697645133763"/>
+<node TEXT="6.10 只读只写" ID="ID_757573547" CREATED="1697645134206" MODIFIED="1697645144636"/>
+<node TEXT="6.11 加密保护" ID="ID_1558110847" CREATED="1697645145095" MODIFIED="1697645153415"/>
+<node TEXT="6.12 xls转xlsx" ID="ID_531112457" CREATED="1697645153736" MODIFIED="1697645164337"/>
+</node>
+</node>
+</node>
+</map>
