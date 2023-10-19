@@ -2,6 +2,8 @@
 
 Base on book 《让Python遇上Office--从编程入门到自动化办公实践》
 
+![book cover]()
+
 Here is the [Video List in My YouTube Channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeV6tgqhNG9tS9_tWktoocvA)
 
 Mindmap of book structure:
