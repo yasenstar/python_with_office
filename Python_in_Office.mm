@@ -261,7 +261,7 @@
 <node TEXT="3.4 Return Value of Function" FOLDED="true" ID="ID_245593469" CREATED="1697644855109" MODIFIED="1697644861821">
 <node TEXT="return" ID="ID_1496288937" CREATED="1698270097213" MODIFIED="1698270099902"/>
 </node>
-<node TEXT="3.5 Pack 组包和 Unpack 解包" ID="ID_292127285" CREATED="1697644862181" MODIFIED="1698428260379" LINK="https://www.geeksforgeeks.org/packing-and-unpacking-arguments-in-python/">
+<node TEXT="3.5 Pack 组包和 Unpack 解包" FOLDED="true" ID="ID_292127285" CREATED="1697644862181" MODIFIED="1698428260379" LINK="https://www.geeksforgeeks.org/packing-and-unpacking-arguments-in-python/">
 <node TEXT="Unpacking" ID="ID_649923714" CREATED="1698428136862" MODIFIED="1698428139741"/>
 <node TEXT="Packing" ID="ID_998490827" CREATED="1698428134139" MODIFIED="1698428136188"/>
 </node>
