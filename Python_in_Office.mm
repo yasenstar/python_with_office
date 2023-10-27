@@ -244,10 +244,10 @@
 <node TEXT="for i in range(): {}" ID="ID_796952160" CREATED="1698266920900" MODIFIED="1698266927252"/>
 </node>
 </node>
-<node TEXT="3.2 Get to know Function" ID="ID_1042805088" CREATED="1697644835992" MODIFIED="1697644842951">
+<node TEXT="3.2 Get to know Function" FOLDED="true" ID="ID_1042805088" CREATED="1697644835992" MODIFIED="1697644842951">
 <node TEXT="define function: def function_name():" ID="ID_588639816" CREATED="1698269385998" MODIFIED="1698269405079"/>
 </node>
-<node TEXT="3.3 Parameters in Function" ID="ID_1862578952" CREATED="1697644843420" MODIFIED="1697644850981">
+<node TEXT="3.3 Parameters in Function" FOLDED="true" ID="ID_1862578952" CREATED="1697644843420" MODIFIED="1697644850981">
 <node TEXT="3.3.1 形参(parameter)和实参(argument)" ID="ID_1708991122" CREATED="1697759685731" MODIFIED="1698269537009">
 <node TEXT="A parameter is a variable in the function defintion" ID="ID_1425499135" CREATED="1698269537805" MODIFIED="1698269553046"/>
 <node TEXT="An argument is the value passed to the function when it is called" ID="ID_1506795531" CREATED="1698269553439" MODIFIED="1698269566264"/>
@@ -258,10 +258,13 @@
 <node TEXT="**kwargs: additional keyword-baesd parameter ==&gt; dict" ID="ID_668503728" CREATED="1698269949337" MODIFIED="1698270051469"/>
 </node>
 </node>
-<node TEXT="3.4 Return Value of Function" ID="ID_245593469" CREATED="1697644855109" MODIFIED="1697644861821">
+<node TEXT="3.4 Return Value of Function" FOLDED="true" ID="ID_245593469" CREATED="1697644855109" MODIFIED="1697644861821">
 <node TEXT="return" ID="ID_1496288937" CREATED="1698270097213" MODIFIED="1698270099902"/>
 </node>
-<node TEXT="3.5 Packet Assembly 组包和&#xa;       Packet Disassembly 解包" ID="ID_292127285" CREATED="1697644862181" MODIFIED="1698265766829"/>
+<node TEXT="3.5 Pack 组包和 Unpack 解包" ID="ID_292127285" CREATED="1697644862181" MODIFIED="1698428260379" LINK="https://www.geeksforgeeks.org/packing-and-unpacking-arguments-in-python/">
+<node TEXT="Unpacking" ID="ID_649923714" CREATED="1698428136862" MODIFIED="1698428139741"/>
+<node TEXT="Packing" ID="ID_998490827" CREATED="1698428134139" MODIFIED="1698428136188"/>
+</node>
 <node TEXT="3.6 Variable Scope&#xa;       变量作用域" ID="ID_965774638" CREATED="1697644871236" MODIFIED="1698265785883"/>
 <node TEXT="3.7 lambda Function" ID="ID_294107747" CREATED="1697644876171" MODIFIED="1697644888877"/>
 </node>
