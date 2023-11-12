@@ -269,15 +269,15 @@
 <node TEXT="3.7 lambda Function 匿名函数" ID="ID_294107747" CREATED="1697644876171" MODIFIED="1698439635273"/>
 </node>
 <node TEXT="Ch 4 Class and Object" ID="ID_1064440122" CREATED="1697644890733" MODIFIED="1697644897955">
-<node TEXT="4.1 Class and Object (Instance)" ID="ID_306967212" CREATED="1697644897958" MODIFIED="1698449448840">
+<node TEXT="4.1 Class and Object (Instance)" ID="ID_306967212" CREATED="1697644897958" MODIFIED="1699809730780" LINK="https://www.geeksforgeeks.org/python-classes-and-objects/">
 <node TEXT="4.1.1 instantiate object 实例化对象" ID="ID_1289590776" CREATED="1698449462886" MODIFIED="1698449491775">
-<node TEXT="Class" ID="ID_82255860" CREATED="1699807175314" MODIFIED="1699807176901">
+<node TEXT="Class" FOLDED="true" ID="ID_82255860" CREATED="1699807175314" MODIFIED="1699807176901">
 <node TEXT="A class is a user-defined blueprint or prototype from which object are created." POSITION="bottom_or_right" ID="ID_1149511569" CREATED="1699807014586" MODIFIED="1699807054067"/>
 <node TEXT="Classes provide a means of bundling data and functionality together." POSITION="bottom_or_right" ID="ID_196578716" CREATED="1699807054514" MODIFIED="1699807070148"/>
 <node TEXT="Creating a new class creates a new type of object, allowing new instances of that type to be made." POSITION="bottom_or_right" ID="ID_579220164" CREATED="1699807070374" MODIFIED="1699807096348"/>
 <node TEXT="Class Definition:&#xa;class ClassName:&#xa;    # Statement" POSITION="bottom_or_right" ID="ID_1683599271" CREATED="1699807110275" MODIFIED="1699807129219"/>
 </node>
-<node TEXT="Object" ID="ID_1763116279" CREATED="1699807185327" MODIFIED="1699807186836">
+<node TEXT="Object" FOLDED="true" ID="ID_1763116279" CREATED="1699807185327" MODIFIED="1699807186836">
 <node TEXT="An Object is an instance of a Class." ID="ID_528152201" CREATED="1699807188394" MODIFIED="1699807197340"/>
 <node ID="ID_1530208344" CREATED="1699807197797" MODIFIED="1699807232546"><richcontent TYPE="NODE">
 
