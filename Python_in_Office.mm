@@ -270,12 +270,53 @@
 </node>
 <node TEXT="Ch 4 Class and Object" ID="ID_1064440122" CREATED="1697644890733" MODIFIED="1697644897955">
 <node TEXT="4.1 Class and Object (Instance)" ID="ID_306967212" CREATED="1697644897958" MODIFIED="1698449448840">
-<node TEXT="4.1.1 instantiate object 实例化对象" ID="ID_1289590776" CREATED="1698449462886" MODIFIED="1698449491775"/>
+<node TEXT="4.1.1 instantiate object 实例化对象" ID="ID_1289590776" CREATED="1698449462886" MODIFIED="1698449491775">
+<node TEXT="Class" ID="ID_82255860" CREATED="1699807175314" MODIFIED="1699807176901">
+<node TEXT="A class is a user-defined blueprint or prototype from which object are created." POSITION="bottom_or_right" ID="ID_1149511569" CREATED="1699807014586" MODIFIED="1699807054067"/>
+<node TEXT="Classes provide a means of bundling data and functionality together." POSITION="bottom_or_right" ID="ID_196578716" CREATED="1699807054514" MODIFIED="1699807070148"/>
+<node TEXT="Creating a new class creates a new type of object, allowing new instances of that type to be made." POSITION="bottom_or_right" ID="ID_579220164" CREATED="1699807070374" MODIFIED="1699807096348"/>
+<node TEXT="Class Definition:&#xa;class ClassName:&#xa;    # Statement" POSITION="bottom_or_right" ID="ID_1683599271" CREATED="1699807110275" MODIFIED="1699807129219"/>
+</node>
+<node TEXT="Object" ID="ID_1763116279" CREATED="1699807185327" MODIFIED="1699807186836">
+<node TEXT="An Object is an instance of a Class." ID="ID_528152201" CREATED="1699807188394" MODIFIED="1699807197340"/>
+<node ID="ID_1530208344" CREATED="1699807197797" MODIFIED="1699807232546"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A class is like a blueprint while an instance is a copy of the class with <span style="font-style: italic;">Actual Values</span>.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1460005252" CREATED="1699807245577" MODIFIED="1699807345551"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      An object consists of <span style="font-weight: bold;">State</span><span style="font-weight: normal;">&#xa0;&#xa0;(represented by the attributes of an object, also reflects the properties of an object), </span><span style="font-weight: bold;">Behavior</span><span style="font-weight: normal;">&#xa0;&#xa0;(represented by the methods of an object, also reflects the response of an object to other object), and </span><span style="font-weight: bold;">Identity</span><span style="font-weight: normal;">&#xa0;&#xa0;(gives an unique name to an object and enables one object to interact with other objects)</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Object Definition:&#xa;obj = ClassName()&#xa;print(obje.attr)" POSITION="bottom_or_right" ID="ID_1937297776" CREATED="1699807129848" MODIFIED="1699807152283"/>
+</node>
+</node>
 <node TEXT="4.1.2 initialization method 初始化方法:&#xa;         __init__(self [, args, ...])" ID="ID_1557837685" CREATED="1698449634001" MODIFIED="1698449749603"/>
 <node TEXT="4.1.3 Object Property and Method 对象属性与方法" ID="ID_1187451135" CREATED="1698449917681" MODIFIED="1698449936240"/>
 </node>
 <node TEXT="4.2 Private Property and Private Method&#xa;私有属性和私有方法" ID="ID_818871696" CREATED="1697644908923" MODIFIED="1698450229251"/>
-<node TEXT="4.3 Magic Method 魔法方法" ID="ID_1604520930" CREATED="1697644920749" MODIFIED="1698449872184">
+<node TEXT="4.3 Magic Method 魔法方法" FOLDED="true" ID="ID_1604520930" CREATED="1697644920749" MODIFIED="1698449872184">
 <node TEXT="General Magic Methods" ID="ID_749193757" CREATED="1698450248841" MODIFIED="1698450260629">
 <node TEXT="__new__()" ID="ID_146526138" CREATED="1698450261049" MODIFIED="1698450269851"/>
 <node TEXT="__init__()" ID="ID_897819321" CREATED="1698450270262" MODIFIED="1698450274416"/>
@@ -287,11 +328,11 @@
 <node TEXT="4.3.1 Object&apos;s Lifecycle 对象的生命周期" ID="ID_1759549814" CREATED="1698450293968" MODIFIED="1698450307855"/>
 <node TEXT="4.3.2 Iterable Object 可迭代对象" ID="ID_579402736" CREATED="1698450314562" MODIFIED="1698450345233"/>
 </node>
-<node TEXT="4.4 Inheritance and Polymorphism&#xa;      继承和多态" ID="ID_472307915" CREATED="1697644926534" MODIFIED="1698450398964">
+<node TEXT="4.4 Inheritance and Polymorphism&#xa;      继承和多态" FOLDED="true" ID="ID_472307915" CREATED="1697644926534" MODIFIED="1698450398964">
 <node TEXT="4.4.1 Inheritance" ID="ID_926241085" CREATED="1698450406584" MODIFIED="1698450411691"/>
 <node TEXT="4.4.2 Polymorphism" ID="ID_83839837" CREATED="1698450416820" MODIFIED="1698450423674"/>
 </node>
-<node TEXT="4.5 Class Method and Static Method&#xa;类方法与静态方法" ID="ID_1715010967" CREATED="1697644938311" MODIFIED="1698450442740">
+<node TEXT="4.5 Class Method and Static Method&#xa;类方法与静态方法" FOLDED="true" ID="ID_1715010967" CREATED="1697644938311" MODIFIED="1698450442740">
 <node TEXT="4.5.1 Decorators 装饰器" ID="ID_412139647" CREATED="1698450442999" MODIFIED="1698450477866"/>
 <node TEXT="4.5.2 Class method" ID="ID_1772618114" CREATED="1698450486280" MODIFIED="1698450493733"/>
 <node TEXT="4.5.3 Static method" ID="ID_1651781316" CREATED="1698450498952" MODIFIED="1698450505068"/>
