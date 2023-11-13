@@ -451,9 +451,25 @@ Source: https://www.geeksforgeeks.org/dunder-magic-methods-python/
 
 ###### __sizeof__(self): it returns the size of the object
 
-##### __iter__()：遍历对象时自动执行
+##### Comparison magic methods
 
-##### __next__()：生成数据返回
+###### __eq__(self,other): defines behavior for the equality operator, ==
+
+###### __ne__(self,other): defines behavior for the inequality operator, !=
+
+###### __lt__(self,other): defines behavior for the less-than operator, <
+
+###### __gt__(self,other): defines behavior for the greator-than operator, >
+
+###### __le__(self,other): defines behavior for the less-than-or-equal-to operator, <=
+
+###### __ge__(self,other): defines behavior for the greater-than-or-equal-to operator, >=
+
+##### Iteration magic methods
+
+###### __iter__()：遍历对象时自动执行
+
+###### __next__()：生成数据返回
 
 #### 4.3.1 Object's Lifecycle 对象的生命周期
 

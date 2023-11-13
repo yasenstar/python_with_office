@@ -413,11 +413,21 @@
 <node TEXT="__dir__(self): this methods to return a list of attributes of a class" POSITION="bottom_or_right" ID="ID_1244564382" CREATED="1699845916694" MODIFIED="1699845935079"/>
 <node TEXT="__sizeof__(self): it returns the size of the object" POSITION="bottom_or_right" ID="ID_1868346996" CREATED="1699845935403" MODIFIED="1699845948908"/>
 </node>
-<node TEXT="__iter__()：遍历对象时自动执行" ID="ID_1090348453" CREATED="1698450285560" MODIFIED="1699845662889">
+<node TEXT="Comparison magic methods" ID="ID_927082753" CREATED="1699847403116" MODIFIED="1699847414083">
+<node TEXT="__eq__(self,other): defines behavior for the equality operator, ==" ID="ID_1393942386" CREATED="1699847414085" MODIFIED="1699847449918"/>
+<node TEXT="__ne__(self,other): defines behavior for the inequality operator, !=" ID="ID_1409515731" CREATED="1699847450712" MODIFIED="1699847475879"/>
+<node TEXT="__lt__(self,other): defines behavior for the less-than operator, &lt;" ID="ID_1805713151" CREATED="1699847476100" MODIFIED="1699847496822"/>
+<node TEXT="__gt__(self,other): defines behavior for the greator-than operator, &gt;" ID="ID_1843262746" CREATED="1699847497020" MODIFIED="1699847520828"/>
+<node TEXT="__le__(self,other): defines behavior for the less-than-or-equal-to operator, &lt;=" ID="ID_263690200" CREATED="1699847521310" MODIFIED="1699847563805"/>
+<node TEXT="__ge__(self,other): defines behavior for the greater-than-or-equal-to operator, &gt;=" ID="ID_1937507824" CREATED="1699847564005" MODIFIED="1699847589293"/>
+</node>
+<node TEXT="Iteration magic methods" ID="ID_1086800732" CREATED="1699847620251" MODIFIED="1699847632677">
+<node TEXT="__iter__()：遍历对象时自动执行" POSITION="bottom_or_right" ID="ID_1090348453" CREATED="1698450285560" MODIFIED="1699845662889">
 <font BOLD="true"/>
 </node>
-<node TEXT="__next__()：生成数据返回" ID="ID_1771472763" CREATED="1698450289848" MODIFIED="1699845662891">
+<node TEXT="__next__()：生成数据返回" POSITION="bottom_or_right" ID="ID_1771472763" CREATED="1698450289848" MODIFIED="1699845662891">
 <font BOLD="true"/>
+</node>
 </node>
 </node>
 <node TEXT="4.3.1 Object&apos;s Lifecycle 对象的生命周期" ID="ID_1759549814" CREATED="1698450293968" MODIFIED="1698450307855"/>
