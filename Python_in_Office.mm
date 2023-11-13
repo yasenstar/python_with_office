@@ -3,7 +3,7 @@
 <node TEXT="Python in Office" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1697644508245">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.301">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -316,8 +316,22 @@
 <node TEXT="4.1.3 Object Property and Method 对象属性与方法" ID="ID_1187451135" CREATED="1698449917681" MODIFIED="1698449936240"/>
 </node>
 <node TEXT="4.2 Private Property and Private Method&#xa;私有属性和私有方法" ID="ID_818871696" CREATED="1697644908923" MODIFIED="1698450229251">
-<node TEXT="Private Property to hide Property: __(propertyName)" ID="ID_614392566" CREATED="1699815676696" MODIFIED="1699815710604"/>
-<node TEXT="Private Method: __(methodName)" ID="ID_514403379" CREATED="1699815744689" MODIFIED="1699815756200"/>
+<node TEXT="3 types of Class resources" FOLDED="true" ID="ID_1117123347" CREATED="1699833843886" MODIFIED="1699835266639" LINK="https://www.tutorialsteacher.com/python/public-private-protected-modifiers">
+<node TEXT="Public" ID="ID_787772040" CREATED="1699833859779" MODIFIED="1699833861702">
+<node TEXT="All members in a Python class are public by default" ID="ID_1974338130" CREATED="1699833907270" MODIFIED="1699833911872"/>
+</node>
+<node TEXT="Protected" POSITION="bottom_or_right" ID="ID_1703721087" CREATED="1699833867779" MODIFIED="1699833870104">
+<node TEXT="Protected members of a class are accessible from within the class and are also available to its sub-classes" ID="ID_1220619719" CREATED="1699833926535" MODIFIED="1699833930751"/>
+<node TEXT="No other environment is permitted access to it." ID="ID_1760190956" CREATED="1699833936926" MODIFIED="1699833939158"/>
+<node TEXT="This enables specific resources of the parent class to be inherited by the child class." ID="ID_536653579" CREATED="1699833947961" MODIFIED="1699833955529"/>
+<node TEXT="Python&apos;s convention to make an instance variable protected is to add a prefix _ (single underscore) to it." ID="ID_928313713" CREATED="1699833970722" MODIFIED="1699833972962"/>
+</node>
+<node TEXT="Private" ID="ID_421632683" CREATED="1699833861896" MODIFIED="1699833864913">
+<node TEXT="Private members of the class are denied access from the environment outside the class." POSITION="bottom_or_right" ID="ID_92860465" CREATED="1699833594963" MODIFIED="1699833621708"/>
+<node TEXT="Private Property to hide Property: __(propertyName)" POSITION="bottom_or_right" ID="ID_614392566" CREATED="1699815676696" MODIFIED="1699815710604"/>
+<node TEXT="Private Method: __(methodName)" POSITION="bottom_or_right" ID="ID_514403379" CREATED="1699815744689" MODIFIED="1699815756200"/>
+</node>
+</node>
 <node TEXT="isinstance() built-in function" ID="ID_128593374" CREATED="1699815756398" MODIFIED="1699815766968"/>
 </node>
 <node TEXT="4.3 Magic Method 魔法方法" FOLDED="true" ID="ID_1604520930" CREATED="1697644920749" MODIFIED="1698449872184">
