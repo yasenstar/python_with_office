@@ -374,6 +374,9 @@ Use "dir(int)" to list the magic functions in Python
 
 #### General Magic Methods
 
+Source: https://www.geeksforgeeks.org/dunder-magic-methods-python/
+
+
 ##### Initialization and Construction
  (see:4.3.1 Object's Lifecycle 对象的生命周期)
 ###### __new__()：To get called in an object's instantiation. 实例化对象时自动执行
@@ -416,9 +419,37 @@ Use "dir(int)" to list the magic functions in Python
 
 ###### __mod__(self,other): to get called when getting the remainder after the whole-number division by using the modulo operator "%"
 
-###### 
+###### __divmod__(self,other): return a pair (a // b, a % b) for integers.
 
-##### __str__()：打印对象时自动执行
+###### __pow__(self,other,modulo): implements behavior for exponents using the ** operator
+
+###### __lshift__(self,other): implements left bitwise shift using the << operator
+
+###### __rshift__(self,other): implements right bitwise shift using the >> operator.
+
+###### __and__(self,other): implements bitwise and using the & operator
+
+###### __or__(self,other): implements bitwise or using the | operator
+
+###### __xor__(self,other): implements bitwise xor using the ^ operator
+
+##### String Magic Methods
+
+###### __str__(self)：Defines behavior for when str() is called on an instance of  your class. 打印对象时自动执行
+
+###### __repr__(self): to get called by built-in repr() method to return a machine readable representation of a type
+
+###### __unicode__(self): this method to return an unicode string of the type.
+
+###### __format__(self,formatstr): return a new style of string
+
+###### __hash__(self): it has to return an integer, and its result is used for quick key comparison in dictionaries
+
+###### __nonzero__(self): defines behavior for when bool() is called on an instance of your class
+
+###### __dir__(self): this methods to return a list of attributes of a class
+
+###### __sizeof__(self): it returns the size of the object
 
 ##### __iter__()：遍历对象时自动执行
 

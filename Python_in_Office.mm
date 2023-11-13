@@ -351,12 +351,29 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="General Magic Methods" ID="ID_749193757" CREATED="1698450248841" MODIFIED="1698450260629">
-<node TEXT="Initialization and Construction" ID="ID_1249082790" CREATED="1699844579000" MODIFIED="1699844604560">
+<node TEXT="General Magic Methods" ID="ID_749193757" CREATED="1698450248841" MODIFIED="1699845811094"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Source: https://www.geeksforgeeks.org/dunder-magic-methods-python/
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Initialization and Construction" ID="ID_1249082790" CREATED="1699844579000" MODIFIED="1699845664125">
 <arrowlink DESTINATION="ID_1759549814"/>
-<node TEXT="__new__()：To get called in an object&apos;s instantiation. 实例化对象时自动执行" POSITION="bottom_or_right" ID="ID_146526138" CREATED="1698450261049" MODIFIED="1699844661933"/>
-<node TEXT="__init__()：To get called by the __new__ method. 实例化对象之后自动执行" POSITION="bottom_or_right" ID="ID_897819321" CREATED="1698450270262" MODIFIED="1699844673178"/>
-<node TEXT="__del__()：It is the destructor. 对象被销毁时自动执行" POSITION="bottom_or_right" ID="ID_182954151" CREATED="1698450274563" MODIFIED="1699844681972"/>
+<node TEXT="__new__()：To get called in an object&apos;s instantiation. 实例化对象时自动执行" POSITION="bottom_or_right" ID="ID_146526138" CREATED="1698450261049" MODIFIED="1699845649589">
+<font BOLD="true"/>
+</node>
+<node TEXT="__init__()：To get called by the __new__ method. 实例化对象之后自动执行" POSITION="bottom_or_right" ID="ID_897819321" CREATED="1698450270262" MODIFIED="1699845649597">
+<font BOLD="true"/>
+</node>
+<node TEXT="__del__()：It is the destructor. 对象被销毁时自动执行" POSITION="bottom_or_right" ID="ID_182954151" CREATED="1698450274563" MODIFIED="1699845649598">
+<font BOLD="true"/>
+</node>
 </node>
 <node TEXT="Numeric magic methods" ID="ID_622539699" CREATED="1699844613417" MODIFIED="1699844622764">
 <node TEXT="__trunc__(self): implements behavior for math.trunc()" ID="ID_1954406354" CREATED="1699844622766" MODIFIED="1699844643017"/>
@@ -376,11 +393,32 @@
 <node TEXT="__div__(self,other): to get called when dividing by the &quot;/&quot; operator, it overrides the division operation for a custom object in Python 2" ID="ID_511351878" CREATED="1699845153458" MODIFIED="1699845301861"/>
 <node TEXT="__truediv__(self,other): to get called when dividing by the &quot;/&quot; operator, in Python 3, it replaces __div__" ID="ID_1125711573" CREATED="1699845188220" MODIFIED="1699845325655"/>
 <node TEXT="__mod__(self,other): to get called when getting the remainder after the whole-number division by using the modulo operator &quot;%&quot;" ID="ID_1799377193" CREATED="1699845327074" MODIFIED="1699845374942"/>
-<node TEXT="" ID="ID_830454609" CREATED="1699845375692" MODIFIED="1699845375692"/>
+<node TEXT="__divmod__(self,other): return a pair (a // b, a % b) for integers." ID="ID_830454609" CREATED="1699845375692" MODIFIED="1699845473663"/>
+<node TEXT="__pow__(self,other,modulo): implements behavior for exponents using the ** operator" ID="ID_306861028" CREATED="1699845473899" MODIFIED="1699845502131"/>
+<node TEXT="__lshift__(self,other): implements left bitwise shift using the &lt;&lt; operator" ID="ID_1801859010" CREATED="1699845502743" MODIFIED="1699845533282"/>
+<node TEXT="__rshift__(self,other): implements right bitwise shift using the &gt;&gt; operator." ID="ID_920995589" CREATED="1699845533624" MODIFIED="1699845556328"/>
+<node TEXT="__and__(self,other): implements bitwise and using the &amp; operator" ID="ID_1467164900" CREATED="1699845557941" MODIFIED="1699845576876"/>
+<node TEXT="__or__(self,other): implements bitwise or using the | operator" ID="ID_1470523216" CREATED="1699845577066" MODIFIED="1699845591576"/>
+<node TEXT="__xor__(self,other): implements bitwise xor using the ^ operator" ID="ID_1685001552" CREATED="1699845591739" MODIFIED="1699845622186"/>
 </node>
-<node TEXT="__str__()：打印对象时自动执行" ID="ID_443109697" CREATED="1698450279448" MODIFIED="1699843097581"/>
-<node TEXT="__iter__()：遍历对象时自动执行" ID="ID_1090348453" CREATED="1698450285560" MODIFIED="1699843109304"/>
-<node TEXT="__next__()：生成数据返回" ID="ID_1771472763" CREATED="1698450289848" MODIFIED="1699843117330"/>
+<node TEXT="String Magic Methods" ID="ID_1614088018" CREATED="1699845624619" MODIFIED="1699845631014">
+<node TEXT="__str__(self)：Defines behavior for when str() is called on an instance of  your class. 打印对象时自动执行" POSITION="bottom_or_right" ID="ID_443109697" CREATED="1698450279448" MODIFIED="1699845734302">
+<font BOLD="true"/>
+</node>
+<node TEXT="__repr__(self): to get called by built-in repr() method to return a machine readable representation of a type" POSITION="bottom_or_right" ID="ID_633116753" CREATED="1699845676693" MODIFIED="1699845762317"/>
+<node TEXT="__unicode__(self): this method to return an unicode string of the type." POSITION="bottom_or_right" ID="ID_1172300600" CREATED="1699845762532" MODIFIED="1699845783670"/>
+<node TEXT="__format__(self,formatstr): return a new style of string" POSITION="bottom_or_right" ID="ID_1385741168" CREATED="1699845820395" MODIFIED="1699845840278"/>
+<node TEXT="__hash__(self): it has to return an integer, and its result is used for quick key comparison in dictionaries" POSITION="bottom_or_right" ID="ID_1505834532" CREATED="1699845843082" MODIFIED="1699845880469"/>
+<node TEXT="__nonzero__(self): defines behavior for when bool() is called on an instance of your class" POSITION="bottom_or_right" ID="ID_933531615" CREATED="1699845881571" MODIFIED="1699845907916"/>
+<node TEXT="__dir__(self): this methods to return a list of attributes of a class" POSITION="bottom_or_right" ID="ID_1244564382" CREATED="1699845916694" MODIFIED="1699845935079"/>
+<node TEXT="__sizeof__(self): it returns the size of the object" POSITION="bottom_or_right" ID="ID_1868346996" CREATED="1699845935403" MODIFIED="1699845948908"/>
+</node>
+<node TEXT="__iter__()：遍历对象时自动执行" ID="ID_1090348453" CREATED="1698450285560" MODIFIED="1699845662889">
+<font BOLD="true"/>
+</node>
+<node TEXT="__next__()：生成数据返回" ID="ID_1771472763" CREATED="1698450289848" MODIFIED="1699845662891">
+<font BOLD="true"/>
+</node>
 </node>
 <node TEXT="4.3.1 Object&apos;s Lifecycle 对象的生命周期" ID="ID_1759549814" CREATED="1698450293968" MODIFIED="1698450307855"/>
 <node TEXT="4.3.2 Iterable Object 可迭代对象" ID="ID_579402736" CREATED="1698450314562" MODIFIED="1698450345233">
