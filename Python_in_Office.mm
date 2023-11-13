@@ -3,7 +3,7 @@
 <node TEXT="Python in Office" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1697644508245">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="1.301">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -269,15 +269,15 @@
 <node TEXT="3.7 lambda Function 匿名函数" ID="ID_294107747" CREATED="1697644876171" MODIFIED="1698439635273"/>
 </node>
 <node TEXT="Ch 4 Class and Object" ID="ID_1064440122" CREATED="1697644890733" MODIFIED="1697644897955">
-<node TEXT="4.1 Class and Object (Instance)" ID="ID_306967212" CREATED="1697644897958" MODIFIED="1699809730780" LINK="https://www.geeksforgeeks.org/python-classes-and-objects/">
-<node TEXT="4.1.1 instantiate object 实例化对象" ID="ID_1289590776" CREATED="1698449462886" MODIFIED="1698449491775">
-<node TEXT="Class" FOLDED="true" ID="ID_82255860" CREATED="1699807175314" MODIFIED="1699807176901">
+<node TEXT="4.1 Class and Object (Instance)" FOLDED="true" ID="ID_306967212" CREATED="1697644897958" MODIFIED="1699809730780" LINK="https://www.geeksforgeeks.org/python-classes-and-objects/">
+<node TEXT="4.1.1 instantiate object 实例化对象" FOLDED="true" ID="ID_1289590776" CREATED="1698449462886" MODIFIED="1698449491775">
+<node TEXT="Class" ID="ID_82255860" CREATED="1699807175314" MODIFIED="1699807176901">
 <node TEXT="A class is a user-defined blueprint or prototype from which object are created." POSITION="bottom_or_right" ID="ID_1149511569" CREATED="1699807014586" MODIFIED="1699807054067"/>
 <node TEXT="Classes provide a means of bundling data and functionality together." POSITION="bottom_or_right" ID="ID_196578716" CREATED="1699807054514" MODIFIED="1699807070148"/>
 <node TEXT="Creating a new class creates a new type of object, allowing new instances of that type to be made." POSITION="bottom_or_right" ID="ID_579220164" CREATED="1699807070374" MODIFIED="1699807096348"/>
 <node TEXT="Class Definition:&#xa;class ClassName:&#xa;    # Statement" POSITION="bottom_or_right" ID="ID_1683599271" CREATED="1699807110275" MODIFIED="1699807129219"/>
 </node>
-<node TEXT="Object" FOLDED="true" ID="ID_1763116279" CREATED="1699807185327" MODIFIED="1699807186836">
+<node TEXT="Object" ID="ID_1763116279" CREATED="1699807185327" MODIFIED="1699807186836">
 <node TEXT="An Object is an instance of a Class." ID="ID_528152201" CREATED="1699807188394" MODIFIED="1699807197340"/>
 <node ID="ID_1530208344" CREATED="1699807197797" MODIFIED="1699807232546"><richcontent TYPE="NODE">
 
@@ -309,13 +309,17 @@
 
 </richcontent>
 </node>
-<node TEXT="Object Definition:&#xa;obj = ClassName()&#xa;print(obje.attr)" POSITION="bottom_or_right" ID="ID_1937297776" CREATED="1699807129848" MODIFIED="1699807152283"/>
+<node TEXT="Object Definition:&#xa;obj = ClassName()&#xa;print(obj.attr)" POSITION="bottom_or_right" ID="ID_1937297776" CREATED="1699807129848" MODIFIED="1699811773262"/>
 </node>
 </node>
 <node TEXT="4.1.2 initialization method 初始化方法:&#xa;         __init__(self [, args, ...])" ID="ID_1557837685" CREATED="1698449634001" MODIFIED="1698449749603"/>
 <node TEXT="4.1.3 Object Property and Method 对象属性与方法" ID="ID_1187451135" CREATED="1698449917681" MODIFIED="1698449936240"/>
 </node>
-<node TEXT="4.2 Private Property and Private Method&#xa;私有属性和私有方法" ID="ID_818871696" CREATED="1697644908923" MODIFIED="1698450229251"/>
+<node TEXT="4.2 Private Property and Private Method&#xa;私有属性和私有方法" ID="ID_818871696" CREATED="1697644908923" MODIFIED="1698450229251">
+<node TEXT="Private Property to hide Property: __(propertyName)" ID="ID_614392566" CREATED="1699815676696" MODIFIED="1699815710604"/>
+<node TEXT="Private Method: __(methodName)" ID="ID_514403379" CREATED="1699815744689" MODIFIED="1699815756200"/>
+<node TEXT="isinstance() built-in function" ID="ID_128593374" CREATED="1699815756398" MODIFIED="1699815766968"/>
+</node>
 <node TEXT="4.3 Magic Method 魔法方法" FOLDED="true" ID="ID_1604520930" CREATED="1697644920749" MODIFIED="1698449872184">
 <node TEXT="General Magic Methods" ID="ID_749193757" CREATED="1698450248841" MODIFIED="1698450260629">
 <node TEXT="__new__()" ID="ID_146526138" CREATED="1698450261049" MODIFIED="1698450269851"/>
