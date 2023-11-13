@@ -3,7 +3,7 @@
 <node TEXT="Python in Office" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1697644508245">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.301">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -351,7 +351,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="General Magic Methods" ID="ID_749193757" CREATED="1698450248841" MODIFIED="1699845811094"><richcontent TYPE="NOTE">
+<node TEXT="General Magic Methods" FOLDED="true" ID="ID_749193757" CREATED="1698450248841" MODIFIED="1699845811094"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -431,7 +431,7 @@
 </node>
 </node>
 <node TEXT="4.3.1 Object&apos;s Lifecycle 对象的生命周期" ID="ID_1759549814" CREATED="1698450293968" MODIFIED="1698450307855"/>
-<node TEXT="4.3.2 Iterable Object 可迭代对象" ID="ID_579402736" CREATED="1698450314562" MODIFIED="1698450345233">
+<node TEXT="4.3.2 Iterable Object 可迭代对象" FOLDED="true" ID="ID_579402736" CREATED="1698450314562" MODIFIED="1698450345233">
 <node TEXT="Iterable(可迭代对象)：如果一个类实现了__iter__()的对象" ID="ID_1111069719" CREATED="1699844210668" MODIFIED="1699844246473"/>
 <node TEXT="Iterator(迭代器)：一个既实现了__iter__()又实现了__next__()的类的对象" ID="ID_794295171" CREATED="1699844246947" MODIFIED="1699844291021"/>
 <node TEXT="Python的list、dict等容器是可迭代对象，但不是迭代器" ID="ID_895065417" CREATED="1699844296715" MODIFIED="1699844331380"/>
