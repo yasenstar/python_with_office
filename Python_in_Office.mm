@@ -3,7 +3,7 @@
 <node TEXT="Python in Office" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1697644508245">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="1.301">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -315,7 +315,7 @@
 <node TEXT="4.1.2 initialization method 初始化方法:&#xa;         __init__(self [, args, ...])" ID="ID_1557837685" CREATED="1698449634001" MODIFIED="1698449749603"/>
 <node TEXT="4.1.3 Object Property and Method 对象属性与方法" ID="ID_1187451135" CREATED="1698449917681" MODIFIED="1698449936240"/>
 </node>
-<node TEXT="4.2 Private Property and Private Method&#xa;私有属性和私有方法" ID="ID_818871696" CREATED="1697644908923" MODIFIED="1698450229251">
+<node TEXT="4.2 Private Property and Private Method&#xa;私有属性和私有方法" FOLDED="true" ID="ID_818871696" CREATED="1697644908923" MODIFIED="1698450229251">
 <node TEXT="3 types of Class resources" FOLDED="true" ID="ID_1117123347" CREATED="1699833843886" MODIFIED="1699835266639" LINK="https://www.tutorialsteacher.com/python/public-private-protected-modifiers">
 <node TEXT="Public" ID="ID_787772040" CREATED="1699833859779" MODIFIED="1699833861702">
 <node TEXT="All members in a Python class are public by default" ID="ID_1974338130" CREATED="1699833907270" MODIFIED="1699833911872"/>
@@ -334,17 +334,60 @@
 </node>
 <node TEXT="isinstance() built-in function" ID="ID_128593374" CREATED="1699815756398" MODIFIED="1699815766968"/>
 </node>
-<node TEXT="4.3 Magic Method 魔法方法" FOLDED="true" ID="ID_1604520930" CREATED="1697644920749" MODIFIED="1698449872184">
+<node TEXT="4.3 Magic(Dunder) Method 魔法方法" ID="ID_1604520930" CREATED="1697644920749" MODIFIED="1699844402842">
+<node TEXT="Dunder or Magic methods in Python are the methods having two prefixs and suffix underscores in the method name." ID="ID_1176965787" CREATED="1699844411894" MODIFIED="1699844521246"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dunder: means &quot;Double Under (Underscores)&quot;
+    </p>
+    <p>
+      Use &quot;dir(int)&quot; to list the magic functions in Python
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="General Magic Methods" ID="ID_749193757" CREATED="1698450248841" MODIFIED="1698450260629">
-<node TEXT="__new__()" ID="ID_146526138" CREATED="1698450261049" MODIFIED="1698450269851"/>
-<node TEXT="__init__()" ID="ID_897819321" CREATED="1698450270262" MODIFIED="1698450274416"/>
-<node TEXT="__del__()" ID="ID_182954151" CREATED="1698450274563" MODIFIED="1698450279099"/>
-<node TEXT="__str__()" ID="ID_443109697" CREATED="1698450279448" MODIFIED="1698450284452"/>
-<node TEXT="__iter__()" ID="ID_1090348453" CREATED="1698450285560" MODIFIED="1698450289698"/>
-<node TEXT="__next__()" ID="ID_1771472763" CREATED="1698450289848" MODIFIED="1698450293074"/>
+<node TEXT="Initialization and Construction" ID="ID_1249082790" CREATED="1699844579000" MODIFIED="1699844604560">
+<arrowlink DESTINATION="ID_1759549814"/>
+<node TEXT="__new__()：To get called in an object&apos;s instantiation. 实例化对象时自动执行" POSITION="bottom_or_right" ID="ID_146526138" CREATED="1698450261049" MODIFIED="1699844661933"/>
+<node TEXT="__init__()：To get called by the __new__ method. 实例化对象之后自动执行" POSITION="bottom_or_right" ID="ID_897819321" CREATED="1698450270262" MODIFIED="1699844673178"/>
+<node TEXT="__del__()：It is the destructor. 对象被销毁时自动执行" POSITION="bottom_or_right" ID="ID_182954151" CREATED="1698450274563" MODIFIED="1699844681972"/>
+</node>
+<node TEXT="Numeric magic methods" ID="ID_622539699" CREATED="1699844613417" MODIFIED="1699844622764">
+<node TEXT="__trunc__(self): implements behavior for math.trunc()" ID="ID_1954406354" CREATED="1699844622766" MODIFIED="1699844643017"/>
+<node TEXT="__ceil__(self): implements behavior for math.ceil()" ID="ID_534601202" CREATED="1699844683997" MODIFIED="1699844712540"/>
+<node TEXT="__floor__(self): implements behavior for math.floor()" ID="ID_5506898" CREATED="1699844712948" MODIFIED="1699844728842"/>
+<node TEXT="__round__(self,n): implements behavior for the built-in round()" ID="ID_946274052" CREATED="1699844729117" MODIFIED="1699844745596"/>
+<node TEXT="__invert__(self): implements behavior for inversion using the ~ operator" ID="ID_611790540" CREATED="1699844745906" MODIFIED="1699844766606"/>
+<node TEXT="__abs__(self): implements behavior for the built-in abs()" ID="ID_1890908365" CREATED="1699844766901" MODIFIED="1699844796193"/>
+<node TEXT="__neg__(self): implements behavior for negation" ID="ID_699238266" CREATED="1699844796722" MODIFIED="1699844810808"/>
+<node TEXT="__pos__(self): implements behavior for unary positive" ID="ID_287271183" CREATED="1699844810977" MODIFIED="1699844831395"/>
+</node>
+<node TEXT="Arithmetic operators" ID="ID_773324412" CREATED="1699844837811" MODIFIED="1699844846002">
+<node TEXT="__add__(self,other): to get called on the first object when the &quot;+&quot; operator is used" ID="ID_1387473755" CREATED="1699844846005" MODIFIED="1699845060053"/>
+<node TEXT="__sub__(self,other): to get called when subtracting by the &quot;-&quot; operator" ID="ID_475862957" CREATED="1699844948252" MODIFIED="1699845084743"/>
+<node TEXT="__mul__(self.other): to get called when multiplying by the &quot;*&quot; operator" ID="ID_484479970" CREATED="1699845085091" MODIFIED="1699845105847"/>
+<node TEXT="__floordiv__(self,other): to get called when dividing by the &quot;//&quot; operator (whole-number division)" ID="ID_1223345168" CREATED="1699845106211" MODIFIED="1699845153232"/>
+<node TEXT="__div__(self,other): to get called when dividing by the &quot;/&quot; operator, it overrides the division operation for a custom object in Python 2" ID="ID_511351878" CREATED="1699845153458" MODIFIED="1699845301861"/>
+<node TEXT="__truediv__(self,other): to get called when dividing by the &quot;/&quot; operator, in Python 3, it replaces __div__" ID="ID_1125711573" CREATED="1699845188220" MODIFIED="1699845325655"/>
+<node TEXT="__mod__(self,other): to get called when getting the remainder after the whole-number division by using the modulo operator &quot;%&quot;" ID="ID_1799377193" CREATED="1699845327074" MODIFIED="1699845374942"/>
+<node TEXT="" ID="ID_830454609" CREATED="1699845375692" MODIFIED="1699845375692"/>
+</node>
+<node TEXT="__str__()：打印对象时自动执行" ID="ID_443109697" CREATED="1698450279448" MODIFIED="1699843097581"/>
+<node TEXT="__iter__()：遍历对象时自动执行" ID="ID_1090348453" CREATED="1698450285560" MODIFIED="1699843109304"/>
+<node TEXT="__next__()：生成数据返回" ID="ID_1771472763" CREATED="1698450289848" MODIFIED="1699843117330"/>
 </node>
 <node TEXT="4.3.1 Object&apos;s Lifecycle 对象的生命周期" ID="ID_1759549814" CREATED="1698450293968" MODIFIED="1698450307855"/>
-<node TEXT="4.3.2 Iterable Object 可迭代对象" ID="ID_579402736" CREATED="1698450314562" MODIFIED="1698450345233"/>
+<node TEXT="4.3.2 Iterable Object 可迭代对象" ID="ID_579402736" CREATED="1698450314562" MODIFIED="1698450345233">
+<node TEXT="Iterable(可迭代对象)：如果一个类实现了__iter__()的对象" ID="ID_1111069719" CREATED="1699844210668" MODIFIED="1699844246473"/>
+<node TEXT="Iterator(迭代器)：一个既实现了__iter__()又实现了__next__()的类的对象" ID="ID_794295171" CREATED="1699844246947" MODIFIED="1699844291021"/>
+<node TEXT="Python的list、dict等容器是可迭代对象，但不是迭代器" ID="ID_895065417" CREATED="1699844296715" MODIFIED="1699844331380"/>
+</node>
 </node>
 <node TEXT="4.4 Inheritance and Polymorphism&#xa;      继承和多态" FOLDED="true" ID="ID_472307915" CREATED="1697644926534" MODIFIED="1698450398964">
 <node TEXT="4.4.1 Inheritance" ID="ID_926241085" CREATED="1698450406584" MODIFIED="1698450411691"/>
