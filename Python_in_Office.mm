@@ -332,7 +332,7 @@
 </node>
 <node TEXT="isinstance() built-in function" ID="ID_128593374" CREATED="1699815756398" MODIFIED="1699815766968"/>
 </node>
-<node TEXT="4.3 Magic(Dunder) Method 魔法方法" ID="ID_1604520930" CREATED="1697644920749" MODIFIED="1700163752284">
+<node TEXT="4.3 Magic(Dunder) Method 魔法方法" FOLDED="true" ID="ID_1604520930" CREATED="1697644920749" MODIFIED="1700163752284">
 <node TEXT="Dunder or Magic methods in Python are the methods having two prefixs and suffix underscores in the method name." ID="ID_1176965787" CREATED="1699844411894" MODIFIED="1699844521246"><richcontent TYPE="NOTE">
 <html>
   <head>
