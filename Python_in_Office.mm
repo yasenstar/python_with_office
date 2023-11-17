@@ -269,7 +269,7 @@
 <node TEXT="3.7 lambda Function 匿名函数" ID="ID_294107747" CREATED="1697644876171" MODIFIED="1698439635273"/>
 </node>
 <node TEXT="Ch 4 Class and Object" ID="ID_1064440122" CREATED="1697644890733" MODIFIED="1697644897955">
-<node TEXT="4.1 Class and Object (Instance)" ID="ID_306967212" CREATED="1697644897958" MODIFIED="1699809730780" LINK="https://www.geeksforgeeks.org/python-classes-and-objects/">
+<node TEXT="4.1 Class and Object (Instance)" FOLDED="true" ID="ID_306967212" CREATED="1697644897958" MODIFIED="1699809730780" LINK="https://www.geeksforgeeks.org/python-classes-and-objects/">
 <node TEXT="4.1.1 instantiate object 实例化对象" ID="ID_1289590776" CREATED="1698449462886" MODIFIED="1698449491775">
 <node TEXT="Class" FOLDED="true" ID="ID_82255860" CREATED="1699807175314" MODIFIED="1699807176901">
 <node TEXT="A class is a user-defined blueprint or prototype from which object are created." POSITION="bottom_or_right" ID="ID_1149511569" CREATED="1699807014586" MODIFIED="1699807054067"/>
@@ -313,7 +313,7 @@
 <node TEXT="4.1.2 initialization method 初始化方法:&#xa;         __init__(self [, args, ...])" ID="ID_1557837685" CREATED="1698449634001" MODIFIED="1698449749603"/>
 <node TEXT="4.1.3 Object Property and Method 对象属性与方法" ID="ID_1187451135" CREATED="1698449917681" MODIFIED="1698449936240"/>
 </node>
-<node TEXT="4.2 Private Property and Private Method&#xa;私有属性和私有方法" ID="ID_818871696" CREATED="1697644908923" MODIFIED="1698450229251">
+<node TEXT="4.2 Private Property and Private Method&#xa;私有属性和私有方法" FOLDED="true" ID="ID_818871696" CREATED="1697644908923" MODIFIED="1698450229251">
 <node TEXT="3 types of Class resources" ID="ID_1117123347" CREATED="1699833843886" MODIFIED="1699835266639" LINK="https://www.tutorialsteacher.com/python/public-private-protected-modifiers">
 <node TEXT="Public" FOLDED="true" ID="ID_787772040" CREATED="1699833859779" MODIFIED="1699833861702">
 <node TEXT="All members in a Python class are public by default" ID="ID_1974338130" CREATED="1699833907270" MODIFIED="1699833911872"/>
@@ -436,7 +436,7 @@
 <node TEXT="Python的list、dict等容器是可迭代对象，但不是迭代器" ID="ID_895065417" CREATED="1699844296715" MODIFIED="1699844331380"/>
 </node>
 </node>
-<node TEXT="4.4 Inheritance and Polymorphism&#xa;      继承和多态" ID="ID_472307915" CREATED="1697644926534" MODIFIED="1698450398964">
+<node TEXT="4.4 Inheritance and Polymorphism&#xa;      继承和多态" FOLDED="true" ID="ID_472307915" CREATED="1697644926534" MODIFIED="1698450398964">
 <node TEXT="4.4.1 Inheritance" ID="ID_926241085" CREATED="1698450406584" MODIFIED="1698450411691"/>
 <node TEXT="4.4.2 Polymorphism" ID="ID_83839837" CREATED="1698450416820" MODIFIED="1698450423674"/>
 </node>
