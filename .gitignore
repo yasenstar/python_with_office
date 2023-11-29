@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 # temp files
-~$*.pptx
+~$*.*
 tempCodeRunnerFile.py
