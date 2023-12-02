@@ -25,6 +25,6 @@ Mindmap of book structure:
 
 ![bookstructure](img/Python_in_Office.jpg)
 
-===
+---
 
 Thanks for checking, any comments please [email me](mailto:xiaoqizhao@outlook.com).
