@@ -4,10 +4,6 @@ Base on book 《让Python遇上Office--从编程入门到自动化办公实践�
 
 ![book cover](/img/book_cover_python-with-office.png)
 
-Mindmap of book structure:
-
-![bookstructure](img/Python_in_Office.jpg)
-
 Videos:
 
 | Title | YouTube| B站 | 优酷 | 西瓜视频 | 抖音 |
@@ -25,5 +21,10 @@ Videos:
 | Python with Office 009 - DataStructure - 2.8.2 copy 复制 | [link](https://youtu.be/DayYyIgL-Yg) | --- | --- | [link](https://www.ixigua.com/7302079030088434216?logTag=896f5b4ec7520fc6de63) | [link](https://www.douyin.com/video/7302078819177876748) |
 | Python with Office 010 - DataStructure 2-9 and 2-10 Copy 复制 | [link](https://youtu.be/p78gQ63WRyU) | --- | --- | [link](https://www.ixigua.com/7302234775589716507?logTag=d9b7f6069c8108ccdd4e) | [link](https://www.douyin.com/video/7302234629153541427) |
 
+Mindmap of book structure:
+
+![bookstructure](img/Python_in_Office.jpg)
+
+===
 
 Thanks for checking, any comments please [email me](mailto:xiaoqizhao@outlook.com).
