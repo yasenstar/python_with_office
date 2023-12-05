@@ -16,7 +16,9 @@ doc = Document()
 
 run_list = list()
 
-title = doc.add_paragraph("证明")
+# title = doc.add_paragraph("证明")
+title = doc.add_heading("证明",0)
+
 title.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 # print(len(title.runs))
 title_run = title.runs[0]
