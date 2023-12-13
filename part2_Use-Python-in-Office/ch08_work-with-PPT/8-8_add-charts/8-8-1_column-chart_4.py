@@ -56,8 +56,6 @@ chart.legend.position = XL_LEGEND_POSITION.TOP
 
 chart.legend.include_in_layout = False
 
-data_labels = chart.data_labels
-
-data_labels.position = XL_DATA_LABEL_POSITION.ABOVE
+# currently there's no support for adding data table
 
 ppt.save("./8-8-1_4.pptx")
