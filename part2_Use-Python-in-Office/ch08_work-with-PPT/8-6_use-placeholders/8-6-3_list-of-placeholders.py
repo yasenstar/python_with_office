@@ -1,0 +1,28 @@
+from pptx.enum.shapes import PP_PLACEHOLDER_TYPE
+
+print(len(PP_PLACEHOLDER_TYPE.__members__)) # 20
+
+for pt in PP_PLACEHOLDER_TYPE.__members__:
+    print(pt.name, pt.value)
+    
+# Output:
+#     BITMAP BITMAP (9)
+#     BODY BODY (2)
+#     CENTER_TITLE CENTER_TITLE (3)
+#     CHART CHART (8)
+#     DATE DATE (16)
+#     FOOTER FOOTER (15)
+#     HEADER HEADER (14)
+#     MEDIA_CLIP MEDIA_CLIP (10)
+#     OBJECT OBJECT (7)
+#     ORG_CHART ORG_CHART (11)
+#     PICTURE PICTURE (18)
+#     SLIDE_IMAGE SLIDE_IMAGE (101)
+#     SLIDE_NUMBER SLIDE_NUMBER (13)
+#     SUBTITLE SUBTITLE (4)
+#     TABLE TABLE (12)
+#     TITLE TITLE (1)
+#     VERTICAL_BODY VERTICAL_BODY (6)
+#     VERTICAL_OBJECT VERTICAL_OBJECT (17)
+#     VERTICAL_TITLE VERTICAL_TITLE (5)
+#     MIXED MIXED (-2)
