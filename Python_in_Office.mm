@@ -985,7 +985,10 @@
 <node TEXT="page.scaleBy() ==&gt; page.scale_by()" ID="ID_652165663" CREATED="1702656558469" MODIFIED="1703202637299"/>
 </node>
 <node TEXT="9.4.3 Crop PDF Page" ID="ID_1278880705" CREATED="1702656566053" MODIFIED="1702656580975">
-<node TEXT="page.mediabox.lowerLeft / lowerRight / upperRight / upperLeft" ID="ID_1666640702" CREATED="1703197398951" MODIFIED="1703197439553"/>
+<node TEXT="page.mediabox.lowerLeft ==&gt; lower_left" ID="ID_1666640702" CREATED="1703197398951" MODIFIED="1703203321077"/>
+<node TEXT="page.mediabox.lowerRight ==&gt; lower_right" ID="ID_648218810" CREATED="1703203305740" MODIFIED="1703203338996"/>
+<node TEXT="page.mediabox.upperLeft ==&gt; upper_left" ID="ID_487521408" CREATED="1703203306098" MODIFIED="1703203349090"/>
+<node TEXT="page.mediabox.upperRight ==&gt; upper_right" ID="ID_1823403771" CREATED="1703203306477" MODIFIED="1703203361681"/>
 </node>
 </node>
 <node TEXT="9.5 Extract Contents" FOLDED="true" ID="ID_1713303231" CREATED="1697648743100" MODIFIED="1697648752896">
