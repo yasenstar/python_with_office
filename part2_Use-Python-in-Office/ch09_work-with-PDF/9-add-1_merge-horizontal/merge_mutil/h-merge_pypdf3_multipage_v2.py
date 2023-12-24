@@ -27,4 +27,4 @@ for i in range(len(reader1.pages)):
     new_page.mergePage(page1)
     new_page.mergeTranslatedPage(page2, page1.mediaBox.upperRight[0], 0)
 
-writer.write(open("./h-a-b.pdf", "wb"))
+writer.write(open("./h-a-b_2.pdf", "wb"))

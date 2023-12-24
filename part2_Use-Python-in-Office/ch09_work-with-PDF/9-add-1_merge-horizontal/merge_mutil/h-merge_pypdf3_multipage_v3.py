@@ -6,7 +6,7 @@
 
 from PyPDF3 import PdfFileReader, PdfFileWriter
 
-pdf_filenames = ["./grabit.pdf", "./High_Level_TQRDC.pdf"]
+pdf_filenames = ["./a1.pdf", "./ps002.pdf"]
 
 reader1 = PdfFileReader(open(pdf_filenames[0], "rb"), strict=False)
 reader2 = PdfFileReader(open(pdf_filenames[1], "rb"), strict=False)
@@ -28,14 +28,14 @@ for i in range(max(len(reader1.pages), len(reader2.pages))):
     new_page = writer.insertBlankPage(total_width, total_height, i)
     
     if len(reader1.pages) > len(reader2.pages):
-        if i > len(reader2.pages):
+        if i >= len(reader2.pages):
             new_page.mergePage(page1)
         else:
             new_page.mergePage(page1)
             new_page.mergeTranslatedPage(page2, page1.mediaBox.upperRight[0], 0)
     else:
-        if i > len(reader1.pages):
-            new_page.mergePage(page1)
+        if i >= len(reader1.pages):
+            new_page.mergePage(page2)
         else:
             new_page.mergePage(page1)
             new_page.mergeTranslatedPage(page2, page1.mediaBox.upperRight[0], 0)
