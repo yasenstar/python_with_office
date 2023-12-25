@@ -7,7 +7,7 @@
 
 from PyPDF3 import PdfFileReader, PdfFileWriter
 
-pdf_filenames = ["./a1.pdf", "./ps002.pdf"]
+pdf_filenames = ["./1.pdf", "./2.pdf"]
 
 reader1 = PdfFileReader(open(pdf_filenames[0], "rb"), strict=False)
 reader2 = PdfFileReader(open(pdf_filenames[1], "rb"), strict=False)
@@ -43,4 +43,4 @@ for i in range(max(len(reader1.pages), len(reader2.pages))):
             new_page.mergeTranslatedPage(page1, 0, (total_height - page1.mediaBox.upperRight[1]) / 2)
             new_page.mergeTranslatedPage(page2, page1.mediaBox.upperRight[0], (total_height - page2.mediaBox.upperRight[1]) / 2)
 
-writer.write(open("./test.pdf", "wb"))
+writer.write(open("./new.pdf", "wb"))
